@@ -10,12 +10,12 @@
   </head>
   <body>
     <main>
-      <article class="mostrarElementOF">
+      <article id="enunciat_0" class="mostrarElementOF">
         <span class="titol negre">MP06 - UF03<br>Activitat avaluativa</span>
         <span class="subtitolText blanc">dilluns, 8 de març de 2021</span>
         <div class="botonsOF">
-          <button class="boto inactiu" disabled onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent &gt;&gt;</button>
+          <button class="boto inactiu" disabled onclick="passaAnteriorOF(this)">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto actiu" onclick="passaSeguentOF(this)">Següent &gt;&gt;</button>
         </div>
       </article>
       <article id="enunciat_1" class="amagarElementOF">
@@ -39,8 +39,8 @@
           </div>
         </div>
         <div class="botonsOF">
-          <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu" onclick="passaAnteriorOF(this)">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto actiu" onclick="passaSeguentOF(this)">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
       <article id="enunciat_2" class="amagarElementOF">
@@ -75,13 +75,13 @@
           </div>
         </div>
         <div class="botonsOF">
-          <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu" onclick="passaAnteriorOF(this)">&lt;&lt;&nbsp;Anterior</button>
+          <button class="boto actiu" onclick="passaSeguentOF(this)">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
     </main>
 
-    <script src="./js/actAva_JPC.js"></script>
+    <script src="./js/actAva_OF.js"></script>
     <script src="../js/matrius.js"></script>
     <script src="../js/operacions.js"></script>
   </body>
