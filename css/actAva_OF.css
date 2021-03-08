@@ -7,3 +7,7 @@
  .amagarElementOF{
   display:none;
  }
+ .botonsOF{
+   display:flex;
+   justify-content: space-between;
+ }
