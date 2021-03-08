@@ -1,10 +1,11 @@
 let colleccioElements = new Array ();
 let llistaElements = document.getElementById("llistaElements");
 
-function afegirElementAColleccio(){
+function afegirElementAColleccioOF(){
   let elementAAfegir = document.getElementById("elementAAfegir");
   colleccioElements.push(elementAAfegir.value);
-  alert("Element " + elementAAfegir.value + " agfegit correctament " + "\na la posició " + colleccioElements.indexOf(elementAAfegir.value))
+  alert("Element " + elementAAfegir.value + " agfegit correctament " + "\na la posició " + colleccioElements.indexOf(elementAAfegir.value));
+  document.getElementById("elementAAfegir").value="";
 }
 
 function mostrarElementsDeLaColleccio(){
